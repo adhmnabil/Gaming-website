@@ -17,3 +17,14 @@ body{
     background-color: #fa5353  !important;
     overflow: hidden;
 }
+
+h2{
+    text-align: center;
+    color: black !important;
+    margin-top: 20px !important;
+    font-size: 15px !important;
+}
+h2{
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
