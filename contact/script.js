@@ -10,6 +10,7 @@ let ErrorMail = document.getElementById('errorE')
 let ErrorNumber = document.getElementById('errorNum')
 let ErrorAdress = document.getElementById('ErrorAdd')
 let errorP = document.getElementById('Errorss')
+let Thank = document.getElementById('Thanks')
 
 console.log(email.value);
 
@@ -43,7 +44,7 @@ btn.addEventListener('click', ()=>{
     info.push(numberss)
     info.push(namess)
     info.push(emailss)
-    console.log(info);
+   Thank.style.opacity = 1
    }else if(emailss.value == '' || namess == '' ||numberss.value == '' ){
     errorP.innerHTML = 'Enter the all Required filed Please'
     errorP.style.textAlign = 'center'
