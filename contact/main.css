@@ -1,0 +1,19 @@
+p{
+    transform: translatey(-24px);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+h1{
+    transform: translatey(-24px);
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+textarea{
+    resize: none !important;
+}
+body{
+    background-color: #fa5353  !important;
+    overflow: hidden;
+}
